@@ -1,0 +1,30 @@
+[
+    {
+        "author": "Maximus Confessor",
+        "title": "\u03a0\u03a1\u039f\u03a3 \u0398\u0391\u039b\u0391\u03a3\u03a3\u0399\u039f\u039d",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u03a1\u039f\u03a3 \u0398\u0391\u039b\u0391\u03a3\u03a3\u0399\u039f\u039d.tess",
+        "language": "greek",
+        "year": 640
+    },
+    {
+        "author": "Holy Spirit",
+        "title": "New Testament",
+        "path": "/home/administrador/maximus-confessor/texts/grc/new_testament.tess",
+        "language": "greek",
+        "year": 100
+    },
+    {
+        "author": "Eusebius of Caesarea",
+        "title": "Historia Ecclesiastica",
+        "path": "/home/administrador/maximus-confessor/texts/grc/eusebius_caesarea.historia_ecclesiastica.tess",
+        "language": "greek",
+        "year": 325
+    },
+    {
+        "author": "Aristotle",
+        "title": "Metaphysics",
+        "path": "/home/administrador/maximus-confessor/texts/grc/aristotle.metaphysics.tess",
+        "language": "greek",
+        "year": -400
+    }
+]
