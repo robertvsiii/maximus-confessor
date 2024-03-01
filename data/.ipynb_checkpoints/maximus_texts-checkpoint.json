@@ -1,170 +1,114 @@
 [
     {
         "author": "Maximus Confessor",
-        "title": "\u03a0\u03a1\u039f\u03a3 \u0398\u0391\u039b\u0391\u03a3\u03a3\u0399\u039f\u039d ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u03a1\u039f\u03a3 \u0398\u0391\u039b\u0391\u03a3\u03a3\u0399\u039f\u039d .tess",
+        "title": "Liber asceticus",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.liber_asceticus.tess",
         "language": "greek",
-        "year": 640
+        "year": 626
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u03a0\u0395\u03a1\u0399 \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u03a7\u0398\u0395\u039d\u03a4\u03a9\u039d \u0395\u039d \u03a4\u0397 \u03a0\u03a1\u03a9\u03a4\u0397 \u0391\u03a5\u03a4\u039f\u03a5 \u0395\u039e\u039f\u03a1\u0399\u0391, \u0397\u03a4\u039f\u0399 \u0395\u039d \u0392\u0399\u0396\u03a5\u0397 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u0395\u03a1\u0399 \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u03a7\u0398\u0395\u039d\u03a4\u03a9\u039d \u0395\u039d \u03a4\u0397 \u03a0\u03a1\u03a9\u03a4\u0397 \u0391\u03a5\u03a4\u039f\u03a5 \u0395\u039e\u039f\u03a1\u0399\u0391, \u0397\u03a4\u039f\u0399 \u0395\u039d \u0392\u0399\u0396\u03a5\u0397 .tess",
+        "title": "Quaestiones ad Thalassium",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.ad_thalassium.tess",
         "language": "greek",
-        "year": 640
+        "year": 630
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u0395\u03a0\u0399\u03a3\u03a4\u039f\u039b\u0391\u0399 \u039a\u039f\u0399\u039d\u0391\u0399, \u0394\u039f\u0393\u039c\u0391\u03a4\u0399\u039a\u0391\u0399 \u039a\u0391\u0399 \u03a0\u039f\u039b\u0395\u039c\u0399\u039a\u0391\u0399",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u03a0\u0399\u03a3\u03a4\u039f\u039b\u0391\u0399 \u039a\u039f\u0399\u039d\u0391\u0399, \u0394\u039f\u0393\u039c\u0391\u03a4\u0399\u039a\u0391\u0399 \u039a\u0391\u0399 \u03a0\u039f\u039b\u0395\u039c\u0399\u039a\u0391\u0399.tess",
+        "title": "Capita de caritate",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.centuries_on_love.tess",
         "language": "greek",
-        "year": 640
+        "year": 626
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u0395\u039e\u0397\u0393\u0397\u03a3\u0399\u03a3 \u03a4\u0397\u03a3 \u039a\u0399\u039d\u0397\u03a3\u0395\u03a9\u03a3 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u039e\u0397\u0393\u0397\u03a3\u0399\u03a3 \u03a4\u0397\u03a3 \u039a\u0399\u039d\u0397\u03a3\u0395\u03a9\u03a3 .tess",
+        "title": "Expositio in Psalmum LIX",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.exposition_on_psalm_59.tess",
         "language": "greek",
-        "year": 640
+        "year": 626
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u03a3\u03a5\u0396\u0397\u03a4\u0397\u03a3\u0399\u03a3 \u03a4\u039f\u03a5 \u0391\u0393\u0399\u039f\u03a5  \u039c\u0391\u039e\u0399\u039c\u039f\u03a5 \u039c\u0395\u03a4\u0391 \u03a0\u03a5\u03a1\u03a1\u039f\u03a5 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a3\u03a5\u0396\u0397\u03a4\u0397\u03a3\u0399\u03a3 \u03a4\u039f\u03a5 \u0391\u0393\u0399\u039f\u03a5  \u039c\u0391\u039e\u0399\u039c\u039f\u03a5 \u039c\u0395\u03a4\u0391 \u03a0\u03a5\u03a1\u03a1\u039f\u03a5 .tess",
+        "title": "Orationis dominicae expositio",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.exposition_lords_prayer.tess",
         "language": "greek",
-        "year": 640
+        "year": 630
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u03a3\u03a7\u039f\u039b\u0399\u0391 \u0395\u0399\u03a3 \u03a4\u0391\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u039f\u039b\u0391\u03a3 \u03a4\u039f\u03a5 \u0391\u0393\u0399\u039f\u03a5 \u0394\u0399\u039f\u039d\u03a5\u03a3\u0399\u039f\u03a5 \u0391\u03a1\u0395\u039f\u03a0\u0391\u0393\u0399\u03a4\u039f\u03a5 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a3\u03a7\u039f\u039b\u0399\u0391 \u0395\u0399\u03a3 \u03a4\u0391\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u039f\u039b\u0391\u03a3 \u03a4\u039f\u03a5 \u0391\u0393\u0399\u039f\u03a5 \u0394\u0399\u039f\u039d\u03a5\u03a3\u0399\u039f\u03a5 \u0391\u03a1\u0395\u039f\u03a0\u0391\u0393\u0399\u03a4\u039f\u03a5 .tess",
+        "title": "Capita theologica et oeconomica",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.theological_economical_chapters.tess",
         "language": "greek",
-        "year": 640
+        "year": 630
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u039c\u0399\u039a\u03a1\u0391 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u039a\u0391\u0399 \u03a0\u039f\u039b\u0395\u039c\u0399\u039a\u0391",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039c\u0399\u039a\u03a1\u0391 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u039a\u0391\u0399 \u03a0\u039f\u039b\u0395\u039c\u0399\u039a\u0391.tess",
+        "title": "Mystagogia",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.mystagogy.tess",
         "language": "greek",
-        "year": 640
+        "year": 630
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u03a0\u0395\u03a1\u0399 \u0391\u0393\u0391\u03a0\u0397\u03a3",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u03a0\u0395\u03a1\u0399 \u0391\u0393\u0391\u03a0\u0397\u03a3.tess",
+        "title": "Quaestiones ad Theopemptum",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.theopemptus_scholasticus.tess",
         "language": "greek",
-        "year": 640
+        "year": 630
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u03a3\u03a7\u039f\u039b\u0399\u0391 \u0395\u0399\u03a3 \u03a4\u0391 \u03a4\u039f\u03a5 \u0391\u0393\u0399\u039f\u03a5 \u0394\u0399\u039f\u039d\u03a5\u03a3\u0399\u039f\u03a5 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a3\u03a7\u039f\u039b\u0399\u0391 \u0395\u0399\u03a3 \u03a4\u0391 \u03a4\u039f\u03a5 \u0391\u0393\u0399\u039f\u03a5 \u0394\u0399\u039f\u039d\u03a5\u03a3\u0399\u039f\u03a5 .tess",
+        "title": "Epistulae",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.letters.tess",
         "language": "greek",
-        "year": 640
+        "year": 641
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u0395\u03a1\u039c\u0397\u039d\u0395\u0399\u0391 \u03a3\u03a5\u039d\u03a4\u039f\u039c\u039f\u03a3 \u0395\u0399\u03a3 \u03a4\u0397\u039d \u03a0\u03a1\u039f\u03a3\u0395\u03a5\u03a7\u0397\u039d \u03a4\u039f\u03a5 \u03a0\u0391\u03a4\u0395\u03a1 \u0397\u039c\u03a9\u039d,",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u03a1\u039c\u0397\u039d\u0395\u0399\u0391 \u03a3\u03a5\u039d\u03a4\u039f\u039c\u039f\u03a3 \u0395\u0399\u03a3 \u03a4\u0397\u039d \u03a0\u03a1\u039f\u03a3\u0395\u03a5\u03a7\u0397\u039d \u03a4\u039f\u03a5 \u03a0\u0391\u03a4\u0395\u03a1 \u0397\u039c\u03a9\u039d,.tess",
+        "title": "Opuscula",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.opuscula.tess",
         "language": "greek",
-        "year": 640
+        "year": 662
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u03a3' \u03a0\u0395\u03a1\u0399 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u03a3' \u03a0\u0395\u03a1\u0399 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u0391\u03a3.tess",
+        "title": "To Anastasius the Monk",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.to_anastasius.tess",
         "language": "greek",
-        "year": 640
+        "year": 658
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u0395\u03a1\u039c\u0397\u039d\u0395\u0399\u0391 \u0395\u0399\u03a3 \u03a4\u039f\u039d \u039d\u0398' \u03a8\u0391\u039b\u039c\u039f\u039d",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u03a1\u039c\u0397\u039d\u0395\u0399\u0391 \u0395\u0399\u03a3 \u03a4\u039f\u039d \u039d\u0398' \u03a8\u0391\u039b\u039c\u039f\u039d.tess",
+        "title": "Disputatio cum Pyrrho",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.dispute_with_pyrrhus.tess",
         "language": "greek",
-        "year": 640
+        "year": 645
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u03a0\u03a1\u039f\u03a3 \u0391\u039d\u0391\u03a3\u03a4\u0391\u03a3\u0399\u039f\u039d \u039c\u039f\u039d\u0391\u0396\u039f\u039d\u03a4\u0391",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u03a1\u039f\u03a3 \u0391\u039d\u0391\u03a3\u03a4\u0391\u03a3\u0399\u039f\u039d \u039c\u039f\u039d\u0391\u0396\u039f\u039d\u03a4\u0391.tess",
+        "title": "Capita XV",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.fifteen_chapters.tess",
         "language": "greek",
-        "year": 640
+        "year": 630
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u0395\u0399\u03a3 \u03a4\u039f\u039d \u0392\u0399\u039f\u039d \u039a\u0391\u0399 \u03a4\u0397\u039d \u0391\u0398\u039b\u0397\u03a3\u0399\u039d \u03a4\u039f\u03a5 \u039f\u03a3\u0399\u039f\u03a5 \u03a0\u0391\u03a4\u03a1\u039f\u03a3 \u0397\u039c\u03a9\u039d \u039a\u0391\u0399 \u039f\u039c\u039f\u039b\u039f\u0393\u0397\u03a4\u039f\u03a5 \u039c\u0391\u039e\u0399\u039c\u039f\u03a5",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u0399\u03a3 \u03a4\u039f\u039d \u0392\u0399\u039f\u039d \u039a\u0391\u0399 \u03a4\u0397\u039d \u0391\u0398\u039b\u0397\u03a3\u0399\u039d \u03a4\u039f\u03a5 \u039f\u03a3\u0399\u039f\u03a5 \u03a0\u0391\u03a4\u03a1\u039f\u03a3 \u0397\u039c\u03a9\u039d \u039a\u0391\u0399 \u039f\u039c\u039f\u039b\u039f\u0393\u0397\u03a4\u039f\u03a5 \u039c\u0391\u039e\u0399\u039c\u039f\u03a5.tess",
+        "title": "Ambigua ad Thomam",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.ambigua_thomam.tess",
         "language": "greek",
-        "year": 640
+        "year": 634
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u039c\u03a5\u03a3\u03a4\u0391\u0393\u03a9\u0393\u0399\u0391",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039c\u03a5\u03a3\u03a4\u0391\u0393\u03a9\u0393\u0399\u0391.tess",
+        "title": "Ambigua ad Iohannem",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.ambigua_iohannem.tess",
         "language": "greek",
-        "year": 640
+        "year": 626
     },
     {
         "author": "Maximus Confessor",
-        "title": "\u03a0\u03a1\u039f\u03a3 \u03a4\u039f\u039d \u0398\u0395\u0399\u039f\u03a4\u0391\u03a4\u039f\u039d \u0392\u0391\u03a3\u0399\u039b\u0395\u0391 \u03a4\u039f\u039d \u0391\u03a7\u03a1\u0399\u0394\u0397\u039d ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u03a1\u039f\u03a3 \u03a4\u039f\u039d \u0398\u0395\u0399\u039f\u03a4\u0391\u03a4\u039f\u039d \u0392\u0391\u03a3\u0399\u039b\u0395\u0391 \u03a4\u039f\u039d \u0391\u03a7\u03a1\u0399\u0394\u0397\u039d .tess",
+        "title": "Quaestiones et dubia",
+        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.questions_and_doubts.tess",
         "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u03a0\u0395\u03a1\u0399 \u0394\u0399\u0391\u03a6\u039f\u03a1\u03a9\u039d \u0391\u03a0\u039f\u03a1\u0399\u03a9\u039d ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u0395\u03a1\u0399 \u0394\u0399\u0391\u03a6\u039f\u03a1\u03a9\u039d \u0391\u03a0\u039f\u03a1\u0399\u03a9\u039d .tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u0394\u0399\u0391\u03a6\u039f\u03a1\u0391 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u03a4\u0395 \u039a\u0391\u0399 \u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0391 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u0394\u0399\u0391\u03a6\u039f\u03a1\u0391 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u03a4\u0395 \u039a\u0391\u0399 \u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0391 .tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u039b\u039f\u0393\u039f\u03a3 \u0391\u03a3\u039a\u0397\u03a4\u0399\u039a\u039f\u03a3 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039b\u039f\u0393\u039f\u03a3 \u0391\u03a3\u039a\u0397\u03a4\u0399\u039a\u039f\u03a3 .tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u0395\u03a1\u03a9\u03a4\u0391\u03a0\u039f\u039a\u03a1\u0399\u03a3\u0395\u0399\u03a3 A'",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u03a1\u03a9\u03a4\u0391\u03a0\u039f\u039a\u03a1\u0399\u03a3\u0395\u0399\u03a3 A'.tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u0397\u03a4\u039f\u0399 \u0395\u039a\u039b\u039f\u0393\u0391\u0399 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u0398\u0395\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u0397\u03a4\u039f\u0399 \u0395\u039a\u039b\u039f\u0393\u0391\u0399 .tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u0395\u03a4\u0395\u03a1\u0391 \u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u0395\u03a4\u0395\u03a1\u0391 \u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 .tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u03a0\u03a1\u039f\u03a3 \u0398\u0395\u039f\u03a0\u0395\u039c\u03a0\u03a4\u039f\u039d \u03a3\u03a7\u039f\u039b\u0391\u03a3\u03a4\u0399\u039a\u039f\u039d",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u03a1\u039f\u03a3 \u0398\u0395\u039f\u03a0\u0395\u039c\u03a0\u03a4\u039f\u039d \u03a3\u03a7\u039f\u039b\u0391\u03a3\u03a4\u0399\u039a\u039f\u039d.tess",
-        "language": "greek",
-        "year": 640
-    },
-    {
-        "author": "Maximus Confessor",
-        "title": "\u03a0\u0395\u03a1\u0399 \u03a8\u03a5\u03a7\u0397\u03a3 ",
-        "path": "/home/administrador/maximus-confessor/texts/maximus/maximus_confessor.\u03a0\u0395\u03a1\u0399 \u03a8\u03a5\u03a7\u0397\u03a3 .tess",
-        "language": "greek",
-        "year": 640
+        "year": 626
     }
 ]
