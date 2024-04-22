@@ -1,0 +1,33 @@
+[
+    {
+        "author": "Bible",
+        "title": "New Testament",
+        "path": "/home/administrador/maximus-confessor/texts/grc/new_testament.tess",
+        "language": "greek",
+        "year": 100
+    },
+    {
+        "author": "Bible",
+        "title": "Old Testament",
+        "path": "/home/administrador/maximus-confessor/texts/grc/LXX.tess",
+        "language": "greek",
+        "source": "Corpus Corporum",
+        "year": 0
+    },
+    {
+        "author": "Porphyry",
+        "title": "Isagoge",
+        "path": "/home/administrador/maximus-confessor/texts/grc/porphyry.isagoge.tess",
+        "source": "Perseus",
+        "language": "greek",
+        "year": 270
+    },
+    {
+        "author": "Aristotle",
+        "title": "Categories",
+        "path": "/home/administrador/maximus-confessor/texts/grc/aristotle.categories.tess",
+        "source": "Perseus",
+        "language": "greek",
+        "year": -322
+    }
+]
