@@ -16,16 +16,19 @@ def main():
     title = input("Title: ")
     text_id = connection.find('texts',title=title)[0].id
 
-    last_translated = list(connection.aggregate('translations',[{'$match': {'text': text_id, 'unit_type': unit_type}}, 
-                                               {"$project": {"_id": 0, "index": 1, "tags": 1}}],
-                                              encode=False))
+    saved_translations = connection.find('translations',text=text_id,unit_type=unit_type)
+    for translation in saved_translations[-5:]:
+        original = connection.find('units',text=text_id,unit_type=unit_type,index=translation.index)[0]
+        chat_history.append({"role": "user", "content": original.snippet})
+        chat_history.append({"role": "assistant", "content": translation.snippet})
+
     start_tag = input("Starting tag: ").strip()
     if start_tag:
         current_index = connection.find('units',unit_type=unit_type,text=text_id,tags=start_tag)[0].index
     else:
-        if len(last_translated) > 0:
-            print('Starting from last translation at '+last_translated[-1].tags[0])
-            current_index = last_translated[-1].index
+        if len(saved_translations) > 0:
+            print('Starting from last translation at '+saved_translations[-1].tags[0])
+            current_index = saved_translations[-1].index+1
         else:
             print('Starting translation from the beginning')
             current_index = 0
@@ -56,7 +59,7 @@ def main():
 
         chat_history.append({"role": "assistant", "content": final_trans})
         notes = input("Translation notes: ")
-        translation = Translation(text=text_id,snippet=final_trans,notes=notes.strip(),model=final_model,index=current_index,tags=current_unit.tags)
+        translation = Translation(text=text_id,snippet=final_trans,notes=notes.strip(),model=final_model,index=current_index,tags=current_unit.tags,unit_type=unit_type)
         out = connection.insert(translation)
 
         current_index += 1
