@@ -5,6 +5,7 @@ from tesserae.db.entities import Translation
 def main():
     unit_type = 'line'
     model = "gpt-4-turbo"
+    cutoff = 0.5
 
     # Initialize openAI client and database connection
     with open('api_key.txt','r') as f:
@@ -38,6 +39,7 @@ def main():
 
         current_unit = connection.find('units',text=text_id,unit_type=unit_type,index=current_index)[0]
         chat_history.append({"role": "user", "content": current_unit.snippet})
+        context = connection.find('matches',source_unit = current_unit.id)
 
         response = client.chat.completions.create(model=model,messages=chat_history)
         machine_trans = response.choices[0].message.content
@@ -45,6 +47,16 @@ def main():
             f.write(machine_trans)
         print(title+' '+current_unit.tags[0])
         print(current_unit.snippet)
+        print('---')
+        print('Possible references: ')
+        for reference in context:
+            if reference.score > cutoff:
+                ref_unit = connection.find('units',_id=reference.target_unit)[0]
+                ref_title = connection.find('texts',_id=ref_unit.text)[0].title
+                print(ref_title+' '+ref_unit.tags[0]+' (score '+str(reference.score)+'))
+                print(ref_unit.snippet)
+                print(' ')
+        print('---')
 
         correct = input("Corrected translation (y/n)? ")
         if correct == 'n':
