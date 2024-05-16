@@ -1,18 +1,30 @@
 from openai import OpenAI
+import anthropic
 from tesserae.db import TessMongoConnection
 from tesserae.db.entities import Translation
 
 def main():
+    api = 'anthropic'
     unit_type = 'line'
-    model = "gpt-4-turbo"
-    cutoff = 0.5
+    cutoff = .5
 
-    # Initialize openAI client and database connection
-    with open('api_key.txt','r') as f:
-        api_key = f.read()
-    client = OpenAI(api_key=api_key)
-    chat_history = [{"role": "system", "content": "You are a Byzantine Greek to English translator."}]
     connection = TessMongoConnection('127.0.0.1', 27017, None, None, db='maximus')
+
+    if api == 'openai':
+        model = "gpt-4-turbo"
+        with open('api_key.txt','r') as f:
+            api_key = f.read()
+        client = OpenAI(api_key=api_key)
+        client.messages = client.chat.completions
+        chat_history = [{"role": "system", "content": "You are a Byzantine Greek to English translator."}]
+        kwargs = {'model':model}
+    elif api =='anthropic':
+        model = "claude-3-haiku-20240307"
+        with open('api_key_anth.txt','r') as f:
+            api_key = f.read()
+        client = anthropic.Anthropic(api_key=api_key)
+        chat_history = []
+        kwargs = {'model': model, 'system': "You are a Byzantine Greek to English translator.", 'max_tokens': 1024}
 
     title = input("Title: ")
     text_id = connection.find('texts',title=title)[0].id
@@ -41,19 +53,23 @@ def main():
         chat_history.append({"role": "user", "content": current_unit.snippet})
         context = connection.find('matches',source_unit = current_unit.id)
 
-        response = client.chat.completions.create(model=model,messages=chat_history)
-        machine_trans = response.choices[0].message.content
-        with open('temp.txt', 'w') as f:
-            f.write(machine_trans)
         print(title+' '+current_unit.tags[0])
         print(current_unit.snippet)
+
+        response = client.messages.create(messages=chat_history,**kwargs)
+        if api == 'opaenai':
+            machine_trans = response.choices[0].message.content
+        elif api == 'anthropic':
+            machine_trans = response.content[0].text
+        with open('temp.txt', 'w') as f:
+            f.write(machine_trans)
         print('---')
         print('Possible references: ')
         for reference in context:
             if reference.score > cutoff:
                 ref_unit = connection.find('units',_id=reference.target_unit)[0]
                 ref_title = connection.find('texts',_id=ref_unit.text)[0].title
-                print(ref_title+' '+ref_unit.tags[0]+' (score '+str(reference.score)+'))
+                print(ref_title+' '+ref_unit.tags[0]+' (score '+str(reference.score)+')')
                 print(ref_unit.snippet)
                 print(' ')
         print('---')
@@ -66,12 +82,11 @@ def main():
 
         with open('temp.txt', 'r') as f:
             final_trans = f.read()
-            final_model = model
 
 
         chat_history.append({"role": "assistant", "content": final_trans})
         notes = input("Translation notes: ")
-        translation = Translation(text=text_id,snippet=final_trans,notes=notes.strip(),model=final_model,index=current_index,tags=current_unit.tags,unit_type=unit_type)
+        translation = Translation(unit=current_unit.id,text=text_id,snippet=final_trans,notes=notes.strip(),model=final_model,index=current_index,tags=current_unit.tags,unit_type=unit_type)
         out = connection.insert(translation)
 
         current_index += 1
