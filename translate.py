@@ -29,7 +29,14 @@ def main():
     title = input("Title: ")
     text_id = connection.find('texts',title=title)[0].id
 
+    #Load and sort existing translations
     saved_translations = connection.find('translations',text=text_id,unit_type=unit_type)
+    trans_dict = {saved_translations[k].index: saved_translations[k] for k in range(len(saved_translations))}
+    trans_idx = list(trans_dict.keys())
+    trans_idx.sort()
+    saved_translations = [trans_dict[i] for i in trans_idx]
+
+    #Append last five to chat history
     for translation in saved_translations[-5:]:
         original = connection.find('units',text=text_id,unit_type=unit_type,index=translation.index)[0]
         chat_history.append({"role": "user", "content": original.snippet})
@@ -40,8 +47,8 @@ def main():
         current_index = connection.find('units',unit_type=unit_type,text=text_id,tags=start_tag)[0].index
     else:
         if len(saved_translations) > 0:
-            print('Starting from last translation at '+saved_translations[-1].tags[0])
-            current_index = saved_translations[-1].index+1
+            print('Starting from last translation')
+            current_index = trans_idx[-1]+1
         else:
             print('Starting translation from the beginning')
             current_index = 0
